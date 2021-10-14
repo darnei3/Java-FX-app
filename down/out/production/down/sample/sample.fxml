@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="125.0" style="-fx-background-color: DarkSlateGray;">
+         <children>
+            <ButtonBar layoutX="14.0" layoutY="21.0" prefHeight="37.0" prefWidth="24.0" />
+            <Button fx:id="panelButtonTwo" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="70.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 2">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button id="I" fx:id="panelButtonOne" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 1">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonFour" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="170.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 4">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonFive" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="220.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 5">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonSix" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="270.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 6">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonThree" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="120.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 3">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonSeven" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="320.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 7">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="575.0" prefHeight="400.0" prefWidth="125.0" style="-fx-background-color: DarkSlateGray;">
+         <children>
+            <Button fx:id="panelButtonEight" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 8">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonNine" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="70.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 9">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonTen" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="120.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 10">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonEleven" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="170.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 11">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonTwelve" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="220.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 12">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonThithdten" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="270.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 13">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="panelButtonFourten" cache="true" cacheHint="QUALITY" layoutX="20.0" layoutY="320.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" text="PANEL 14">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="photoBag" fitHeight="366.0" fitWidth="405.0" layoutX="167.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Sidebar-Downloads-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
